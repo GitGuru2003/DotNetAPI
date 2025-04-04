@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <InvariantGlobalization>false</InvariantGlobalization> <!-- To fix the InvariantGlobalization Bug-->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.3" /> -->
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="automapper" Version="14.0.0" />
+    <PackageReference Include="Dapper" Version="2.1.66" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="6.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="9.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.3" />
+    <PackageReference Include="SwashBuckle.AspNetCore" Version="8.0.0" />
+  </ItemGroup>
+
+</Project>
