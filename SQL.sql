@@ -91,5 +91,8 @@ INSERT INTO TutorialAppSchema.UserSalary (Salary) VALUES (1);
 INSERT INTO TutorialAppSchema.UserJobInfo (JobTitle, Department) VALUES ('', '');
 
 
-
-CREATE DATABASE 
+CREATE TABLE TutorialAppSchema.Auth(
+  Email VARCHAR(50),
+  PasswordHash VARBINARY(MAX),
+  PasswordSalt VARBINARY(MAX),
+)
