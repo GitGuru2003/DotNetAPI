@@ -7,8 +7,8 @@ namespace DotnetAPI.Dtos
 
     public UserJobInfoToAddDto()
     {
-      if (JobTitle == null) JobTitle = "";
-      if (Department == null) Department = "";
+      JobTitle ??= "";
+      Department ??= "";
     }
 
   }

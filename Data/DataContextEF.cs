@@ -5,7 +5,6 @@ namespace DotnetAPI.Data
 {
   public class DataContextEF : DbContext
   {
-
     private readonly IConfiguration _config;
     public DataContextEF(IConfiguration config)
     {
@@ -21,7 +20,6 @@ namespace DotnetAPI.Data
       {
         options.UseSqlServer(_config.GetConnectionString("DefaultConnection"), (options) => { options.EnableRetryOnFailure(); });
       }
-
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)

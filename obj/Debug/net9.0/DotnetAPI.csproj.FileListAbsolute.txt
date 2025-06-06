@@ -86,3 +86,4 @@
 /Users/munibahmed/Desktop/C# Full Stack/Udemy/dotnet-course-code/Api-Basics/DotnetAPI/bin/Debug/net9.0/Microsoft.Extensions.Options.dll
 /Users/munibahmed/Desktop/C# Full Stack/Udemy/dotnet-course-code/Api-Basics/DotnetAPI/bin/Debug/net9.0/Microsoft.Extensions.Primitives.dll
 /Users/munibahmed/Desktop/C# Full Stack/Udemy/dotnet-course-code/Api-Basics/DotnetAPI/obj/Debug/net9.0/DotnetAPI.sourcelink.json
+/Users/munibahmed/Desktop/C# Full Stack/Udemy/dotnet-course-code/Api-Basics/DotnetAPI/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
